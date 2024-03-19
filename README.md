@@ -1,4 +1,4 @@
-# Shorten File Names Utility
+Shorten File Names Utility
 
 This Python script is designed to shorten file names within a specified directory to avoid potential issues caused by long file names, particularly on Windows systems where long paths can sometimes lead to problems opening files.
 Purpose
@@ -10,17 +10,17 @@ Usage
 
     bash
 
-                git clone <repository-url>
+git clone <repository-url>
 
 Navigate to the Repository Directory: Use the cd command to navigate into the cloned repository directory:
 
 bash
 
-                cd <repository-directory>
+cd <repository-directory>
 
 Run the Script: Execute the Python script by providing the absolute path of the directory containing the files you wish to shorten:
 
-                python shorten_file_names.py
+    python shorten_file_names.py
 
     You will be prompted to enter the absolute path of the directory. Provide the path and press Enter.
 
