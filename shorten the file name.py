@@ -18,7 +18,7 @@ def shorten_file_names(directory):
                 name, extension = os.path.splitext(filename)
 
                 # Shorten the name to 120 characters
-                shortened_name = name[:210]
+                shortened_name = name[:180]
 
                 # Create the new filename
                 new_filename = shortened_name + extension
